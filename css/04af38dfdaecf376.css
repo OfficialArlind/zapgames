@@ -1,0 +1,44 @@
+.TagGrid_tagPillContainer__rY0CY {
+    background-color: var(--black-70);
+    border-radius: calc(var(--base-unit)*1);
+    width: 300px;
+    max-width: 100%;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    transition: background-color .2s ease-in;
+    padding: calc(var(--base-unit)*0) calc(var(--base-unit)*2)
+}
+
+.TagGrid_tagPillContainer__rY0CY p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: padding-left .2s ease-in;
+    color: var(--white-80);
+    font-size: var(--font-size-button)
+}
+
+.TagGrid_tagPillContainer__rY0CY span {
+    padding-left: calc(var(--base-unit)*1);
+    color: var(--brand-60)
+}
+
+.TagGrid_tagPillContainer__rY0CY:hover {
+    background-color: var(--brand-130)
+}
+
+.TagGrid_tagPillContainer__rY0CY:hover p.TagGrid_animateTextOnHover__El9hM {
+    padding-left: calc(var(--base-unit)*1)
+}
+
+.GameTags_gameTagChipContainer__F5xPO {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--base-unit)*2);
+    gap: calc(var(--base-unit)*1)
+}
+
+.GameTags_gameTagChipContainer__F5xPO .tagPill {
+    width: unset
+}

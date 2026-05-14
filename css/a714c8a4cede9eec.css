@@ -1,0 +1,520 @@
+.GameInfo_containerWithPadding__z9aMp {
+    width: 100%
+}
+
+.GameInfo_containerWithPadding__z9aMp>p:first-of-type {
+    margin-block-start: 0
+}
+
+.GameInfo_containerWithPadding__z9aMp>p:last-of-type {
+    margin-block-end: 0
+}
+
+.GameInfo_containerWithPadding__z9aMp h2, .GameInfo_containerWithPadding__z9aMp h3 {
+    margin-block: 1em
+}
+
+@media(min-width:1082px) {
+    .GameInfo_containerWithPadding__z9aMp {
+        padding-bottom: calc(var(--base-unit)*1)
+    }
+}
+
+.GameInfo_styledHtmlDiv__Zg2EY {
+    width: 100%
+}
+
+.GameInfo_styledHtmlDiv__Zg2EY>p:first-of-type {
+    margin-block-start: 0
+}
+
+.GameInfo_styledHtmlDiv__Zg2EY>p:last-of-type {
+    margin-block-end: 0
+}
+
+.GameInfo_styledHtmlDiv__Zg2EY h2, .GameInfo_styledHtmlDiv__Zg2EY h3 {
+    margin-block: 1em
+}
+
+.GameInfo_styledHtmlDiv__Zg2EY ol>li {
+    padding: 14px
+}
+
+.GameInfo_styledHtmlDiv__Zg2EY iframe {
+    width: 100%
+}
+
+.GameInfo_styledHtmlDiv__Zg2EY.GameInfo_marginBlockEnd1__CZiMD {
+    margin-block-end: 1em
+}
+
+.GameInfo_styledDevName__MnwFN {
+    color: var(--brand-60);
+    cursor: pointer;
+    font-weight: 700
+}
+
+.GameInfo_styledDevName__MnwFN:hover {
+    color: var(--brand-100)
+}
+
+@media(max-width:599.98px) {
+    .GameInfo_halfPage300x600BelowGame__lYeY7 {
+        display: none
+    }
+}
+
+.GameInfo_gameInfo__2UItk {
+    display: flex;
+    background-color: var(--black-80);
+    flex-flow: row wrap;
+    border-width: 0;
+    color: var(--white-60);
+    width: 100%;
+    position: relative;
+    margin: auto;
+    line-height: 1.5
+}
+
+@media(max-width:1081.98px) {
+    .GameInfo_gameInfo__2UItk {
+        padding-left: 0;
+        padding-right: 0;
+        margin-top: calc(var(--base-unit)*1.5)
+    }
+}
+
+.GameInfo_gameInfo__2UItk h1 {
+    color: var(--white-100);
+    font-size: 28px;
+    line-height: 1.167
+}
+
+.GameInfo_gameInfo__2UItk h2, .GameInfo_gameInfo__2UItk h3 {
+    font-size: var(--font-size-h2-small);
+    color: var(--white-80)
+}
+
+.GameInfo_gameInfo__2UItk.GameInfo_isDesktop__KqJ3d {
+    font-size: 16px;
+    flex-flow: initial;
+    background: #0000;
+    gap: calc(var(--base-unit)*1)
+}
+
+.GameInfo_gameInfo__2UItk.GameInfo_isDesktop__KqJ3d h2, .GameInfo_gameInfo__2UItk.GameInfo_isDesktop__KqJ3d h3 {
+    font-size: 20px
+}
+
+.GameInfo_gameInfo__2UItk.GameInfo_isMobile___Uz1d {
+    padding: calc(var(--base-unit)*3);
+    font-size: 16px
+}
+
+.GameInfo_gameInfo__2UItk.GameInfo_isMobile___Uz1d h1 {
+    display: block;
+    text-overflow: ellipsis;
+    font-size: 28px;
+    width: calc(100vw - 82px);
+    word-wrap: break-word;
+    overflow: hidden;
+    margin-bottom: calc(var(--base-unit)*2.5)
+}
+
+.GameInfo_gameInfo__2UItk.GameInfo_isMobile___Uz1d h2, .GameInfo_gameInfo__2UItk.GameInfo_isMobile___Uz1d h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--white-80)
+}
+
+.GameInfo_gameInfo__2UItk a {
+    color: var(--brand-60)
+}
+
+.GameInfo_gameInfo__2UItk a:hover {
+    color: var(--brand-100)
+}
+
+.GameInfo_gameInfo__2UItk .GameInfo_leftColumn__vMTeN {
+    display: flex;
+    flex-direction: column;
+    gap: calc(var(--base-unit)*1)
+}
+
+.GameInfo_gameInfo__2UItk .GameInfo_rightColumn__hExHC {
+    position: relative
+}
+
+.GameInfo_gameInfo__2UItk .gameDescription_first {
+    margin-top: calc(var(--base-unit)*4)
+}
+
+.GameInfo_gameInfo__2UItk p {
+    color: var(--white-40)
+}
+
+.GameInfo_roundedCornersContainer__D5D_p {
+    padding: calc(var(--base-unit)*3);
+    background: var(--black-90);
+    border-radius: 16px
+}
+
+.GameInfo_roundedCornersContainer__D5D_p.GameInfo_removeTopPadding__hI61b {
+    padding-top: 0
+}
+
+.GameInfo_leaderboard__rgrmE {
+    padding: calc(var(--base-unit)*1.25) calc(var(--base-unit)*3);
+    position: relative;
+    margin-top: calc(var(--base-unit)*1);
+    display: flex;
+    justify-content: center
+}
+
+@media(max-width:1599.98px) {
+    .GameInfo_leaderboard__rgrmE {
+        display: none
+    }
+}
+
+.GameInfo_leaderboard__rgrmE>div {
+    position: relative
+}
+
+.GameInfo_secondMpuContainer__xiGbJ {
+    padding: calc(var(--base-unit)*1.25) calc(var(--base-unit)*3);
+    display: flex;
+    flex-direction: column;
+    gap: calc(var(--base-unit)*2.5)
+}
+
+@media(min-width:1600px) {
+    .GameInfo_secondMpuContainer__xiGbJ {
+        margin-top: calc(var(--base-unit)*1)
+    }
+}
+
+.GameInfo_secondMpuContainer__xiGbJ>div {
+    position: relative
+}
+
+.Breadcrumbs_breadcrumbs__L3mrb {
+    margin-bottom: calc(var(--base-unit)*2)
+}
+
+.Breadcrumbs_breadcrumbs__L3mrb>div, .Breadcrumbs_breadcrumbs__L3mrb>div>a, .Breadcrumbs_breadcrumbs__L3mrb>div>div {
+    display: inline-block
+}
+
+.Breadcrumbs_breadcrumbs__L3mrb>div>a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: var(--font-size-body);
+    font-weight: 700;
+    color: var(--brand-60)
+}
+
+@media(max-width:599.98px) {
+    .Breadcrumbs_breadcrumbs__L3mrb>div>a {
+        font-size: 16px;
+        min-width: 48px;
+        margin-bottom: calc(var(--base-unit)*1.5)
+    }
+}
+
+.Breadcrumbs_breadcrumbs__L3mrb>div>a:hover {
+    cursor: pointer;
+    color: var(--brand-100)
+}
+
+.Breadcrumbs_breadcrumbs__L3mrb.Breadcrumbs_isNotDesktop__8z5fy {
+    margin-bottom: 0
+}
+
+.Breadcrumbs_separator__yCVN1 {
+    font-size: var(--font-size-body);
+    margin: 0 calc(var(--base-unit)*1);
+    color: var(--white-10);
+    margin-left: calc(var(--base-unit)*.5);
+    margin-right: calc(var(--base-unit)*.5)
+}
+
+.GameSummary_styledGameSummaryTable__OTcI_ {
+    max-width: 100%;
+    padding: calc(var(--base-unit)*1) calc(var(--base-unit)*0)
+}
+
+.GameSummary_gameTableRow__9i4Mt {
+    display: flex;
+    min-height: 29px
+}
+
+.GameSummary_gameTableRowHeader__qmvU_ {
+    color: var(--white-20);
+    width: 110px;
+    flex-shrink: 0
+}
+
+.GameSummary_gameTableRowContent__RW5fE {
+    display: flex;
+    align-items: baseline;
+    color: var(--white-80);
+    font-weight: 700
+}
+
+.GameSummary_gameTableRowContent__RW5fE div a {
+    min-height: 0 !important
+}
+
+.GameSummary_wikiLinks__xu_24 a:hover {
+    cursor: pointer
+}
+
+.BackToTop_buttonContainer__GQast {
+    position: fixed;
+    bottom: calc(var(--base-unit)*2);
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: calc(var(--base-unit)*2);
+    padding-left: calc(var(--base-unit)*2);
+    z-index: 10;
+    transition: opacity .2s ease;
+    opacity: 1
+}
+
+.BackToTop_buttonContainer__GQast.BackToTop_center__l50Lu {
+    justify-content: center
+}
+
+.BackToTop_buttonContainer__GQast button {
+    font-size: 16px
+}
+
+.BackToTop_buttonContainer__GQast.BackToTop_hide__qS9u6 {
+    opacity: 0
+}
+
+.BackToTop_jumpingButton__MI8to {
+    box-shadow: 0 10px 40px #0003
+}
+
+@keyframes BackToTop_bouncenimation__b81on {
+    0% {
+        transform: scale(1) translateY(0)
+    }
+
+    10% {
+        transform: scale(1.03, .97) translateY(0)
+    }
+
+    30% {
+        transform: scale(.97, 1.03) translateY(-30px)
+    }
+
+    50% {
+        transform: scale(1) translateY(0)
+    }
+
+    57% {
+        transform: scale(1) translateY(-3px)
+    }
+
+    64% {
+        transform: scale(1) translateY(0)
+    }
+
+    to {
+        transform: scale(1) translateY(0)
+    }
+}
+
+.BackToTop_jumpingButton__MI8to svg {
+    height: 25px;
+    width: 25px;
+    margin-right: 0;
+    position: absolute
+}
+
+.BackToTop_jumpingButton__MI8to.BackToTop_hasLabel__e_GhC svg {
+    height: 20px;
+    width: 20px;
+    margin-right: 1px;
+    position: static
+}
+
+.BackToTop_jumpingButton__MI8to.BackToTop_isDesktop__QrI6d:hover {
+    animation-name: none
+}
+
+.BackToTop_jumpingButton__MI8to.BackToTop_playAnimation__lIo7n {
+    animation-duration: 1.5s;
+    animation-iteration-count: 4;
+    animation-name: BackToTop_bouncenimation__b81on;
+    animation-timing-function: ease
+}
+
+.GamePageDesktop_main__fSalE {
+    display: flex
+}
+
+.GamePageDesktop_mainContainer__QMRhB {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: calc(100% - 356px);
+    padding: calc(var(--base-unit)*2)
+}
+
+@media(max-width:1279.98px) {
+    .GamePageDesktop_mainContainer__QMRhB {
+        width: 100%
+    }
+}
+
+.GamePageDesktop_mainContainer__QMRhB .GamePageDesktop_gfContainer__ywzsh {
+    height: auto;
+    max-height: calc(100vh - var(--header-height) - 45px - 64px);
+    width: 100%
+}
+
+@media(min-width:1600px) {
+    .GamePageDesktop_mainContainer__QMRhB .GamePageDesktop_gfContainer__ywzsh {
+        max-height: calc(100vh - var(--header-height) - 150px - 40px)
+    }
+}
+
+.GamePageDesktop_mainContainer__QMRhB .GamePageDesktop_gfAspectRatioContainer__f_hUp {
+    max-height: 100%;
+    aspect-ratio: 16/9;
+    margin: auto;
+    display: flex;
+    flex-direction: column
+}
+
+.GamePageDesktop_mainContainer__QMRhB .GamePageDesktop_leaderboardContainer__Mmiky {
+    margin: auto;
+    width: 100%;
+    max-width: 1600px;
+    height: 122px;
+    display: flex;
+    justify-content: center;
+    padding: calc(var(--base-unit)*2)
+}
+
+@media(min-width:1600px) {
+    .GamePageDesktop_mainContainer__QMRhB .GamePageDesktop_leaderboardContainer__Mmiky {
+        display: none
+    }
+}
+
+@media(max-width:819px) {
+    .GamePageDesktop_mainContainer__QMRhB .GamePageDesktop_leaderboardContainer__Mmiky {
+        display: none
+    }
+}
+
+.GamePageDesktop_mainContainer__QMRhB .GamePageDesktop_leaderboardContainer__Mmiky .GamePageDesktop_leaderboard__ddMUk {
+    width: 728px;
+    height: 96.9px;
+    position: relative
+}
+
+.GamePageDesktop_mainContainer__QMRhB .GamePageDesktop_gameInfoContainer__SwKQu {
+    max-width: 1600px;
+    height: 100%;
+    margin: auto
+}
+
+.GamePageDesktop_rightSidebar__QgTMJ {
+    width: 187px;
+    padding: calc(var(--base-unit)*2);
+    padding-bottom: 0;
+    padding-top: 0;
+    background-color: var(--black-90);
+    margin-top: 2px
+}
+
+@media(min-width:1280px) {
+    .GamePageDesktop_rightSidebar__QgTMJ {
+        width: 356px
+    }
+}
+
+@media(max-width:1081.98px) {
+    .GamePageDesktop_rightSidebar__QgTMJ {
+        display: none
+    }
+}
+
+.GamePageDesktop_rightSidebar__QgTMJ .GamePageDesktop_rightMpuContainer__tFXsw {
+    position: relative;
+    margin-bottom: calc(var(--base-unit)*3);
+    margin-top: calc(var(--base-unit)*2 - 2px);
+    display: flex;
+    justify-content: center
+}
+
+@media(max-width:1279.98px) {
+    .GamePageDesktop_rightSidebar__QgTMJ .GamePageDesktop_rightMpuContainer__tFXsw {
+        display: none
+    }
+}
+
+.GamePageDesktop_rightSidebar__QgTMJ .GamePageDesktop_rightGridContainer__qJUvH {
+    padding: calc(var(--base-unit)*.5);
+    padding-top: calc(var(--base-unit)*.5);
+    padding-bottom: calc(var(--base-unit)*2.5)
+}
+
+.GamePageDesktop_rightSidebar__QgTMJ .GamePageDesktop_rightGridContainer__qJUvH>div:last-child {
+    grid-template-columns: 1fr;
+    gap: 4px 8px
+}
+
+@media(min-width:1280px) {
+    .GamePageDesktop_rightSidebar__QgTMJ .GamePageDesktop_rightGridContainer__qJUvH>div:last-child {
+        grid-template-columns: 1fr 1fr
+    }
+}
+
+.GamePageDesktop_rightSidebar__QgTMJ .GamePageDesktop_rightGridContainer__qJUvH>div:last-child>a {
+    margin: 0
+}
+
+.GamePageDesktop_underGameContainerGrid__cdhNC {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--black-90);
+    border-radius: 10px;
+    padding-bottom: calc(var(--base-unit)*2.5)
+}
+
+@media(min-width:1082px) {
+    .GamePageDesktop_underGameContainerGrid__cdhNC {
+        display: none
+    }
+}
+
+@media(max-width:819px) {
+    .GamePageDesktop_underGameContainerGrid__cdhNC {
+        margin-top: calc(var(--base-unit)*2)
+    }
+}
+
+.GamePageDesktop_underGameContainerGrid__cdhNC .GamePageDesktop_underGameContainerGamesWrapper__Rahgf {
+    display: grid;
+    width: 100%
+}
+
+.GamePageDesktop_underGameContainerGrid__cdhNC .GamePageDesktop_underGameContainerGamesWrapper__Rahgf>div:first-child {
+    padding: calc(var(--base-unit)*2);
+    gap: calc(var(--base-unit)*1) calc(var(--base-unit)*2);
+    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr))
+}
+
+.GamePageDesktop_underGameContainerGrid__cdhNC .GamePageDesktop_showMoreButton__xWgfT {
+    width: 150px
+}
