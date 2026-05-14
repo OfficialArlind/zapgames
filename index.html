@@ -937,4 +937,91 @@ searhLayer.addEventListener("click", function () {
  subtree: true
  });
 
- });</script><script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9fb8ed36ab310eaf',t:'MTc3ODc1MTQ3MQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><iframe height="1" width="1" style="position: absolute; top: 0px; left: 0px; border: none; visibility: hidden;"></iframe></body></html>
+ });</script><script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9fb8ed36ab310eaf',t:'MTc3ODc1MTQ3MQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><iframe height="1" width="1" style="position: absolute; top: 0px; left: 0px; border: none; visibility: hidden;"></iframe>
+
+<!-- GAME POPUP MODAL -->
+<div id="zg-game-modal" style="
+  display: none;
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw; height: 100vh;
+  background: #000;
+  z-index: 999999;
+  flex-direction: column;
+">
+  <div style="
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 16px;
+    background: #111;
+    height: 44px;
+  ">
+    <span id="zg-game-title" style="color:#fff; font-size:16px; font-weight:bold;"></span>
+    <button onclick="closeGameModal()" style="
+      background: #e53935;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      padding: 6px 18px;
+      font-size: 15px;
+      cursor: pointer;
+      font-weight: bold;
+    ">✕ Close</button>
+  </div>
+  <iframe id="zg-game-frame"
+    src=""
+    style="flex:1; width:100%; border:none;"
+    allowfullscreen
+    allow="autoplay; fullscreen; gamepad; microphone; camera"
+  ></iframe>
+</div>
+
+<script>
+(function() {
+  // Pages that are NOT games
+  const skipPaths = new Set(['/', '/random', '/recent', '/new', '/hot', '/trending', '/updated', '/about-us', '/contact', '/privacy-policy', '/terms']);
+
+  function isGameLink(href) {
+    if (!href || !href.startsWith('/')) return false;
+    if (href.includes('.')) return false; // skip file links
+    const path = href.split('?')[0];
+    if (skipPaths.has(path)) return false;
+    if (path.startsWith('/games/') || path.startsWith('/tag/') || path.startsWith('/category/')) return false;
+    return true;
+  }
+
+  document.addEventListener('click', function(e) {
+    const link = e.target.closest('a');
+    if (!link) return;
+    const href = link.getAttribute('href');
+    if (!isGameLink(href)) return;
+
+    e.preventDefault();
+
+    const gameName = href.replace('/', '').replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+    const gameUrl = 'https://zapgames.io' + href;
+
+    document.getElementById('zg-game-title').textContent = gameName;
+    document.getElementById('zg-game-frame').src = gameUrl;
+
+    const modal = document.getElementById('zg-game-modal');
+    modal.style.display = 'flex';
+    document.body.style.overflow = 'hidden';
+  });
+
+  window.closeGameModal = function() {
+    const modal = document.getElementById('zg-game-modal');
+    modal.style.display = 'none';
+    document.getElementById('zg-game-frame').src = '';
+    document.body.style.overflow = '';
+  };
+
+  // Close with Escape key
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') closeGameModal();
+  });
+})();
+</script>
+
+</body></html>
